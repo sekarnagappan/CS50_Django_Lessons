@@ -1,0 +1,17 @@
+h1 {
+  font-family: sans-serif;
+  font-size: 90px;
+  text-align: center;
+}
+
+div.vcenter {
+  height: 10em;
+  position: relative
+}
+
+div.vcenter h1 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
